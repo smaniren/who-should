@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="style.css">
+    <title>WHO SHOULD?!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="desktop-info" id="desktop-info">
+        This Game is only available on mobile devices. Try it with your phone!
+    </div>
+    <div class="instructions" id="instructions">
+        <h1>WHO SHOULD?!</h1>
+        <ol>
+            <li>Choose number of losers</li>
+            <li>Put your fingers on the screen</li>
+            <li>Wait</li>
+            <li>Losers turn red</li>
+        </ol> 
+        <span>Number Of Losers:</span>
+        <div class="number-of-losers">
+            <button class="btn--left" id="btn-minus">-</button>
+            <div class="number-of-losers__number" id="number-of-losers">1</div>
+            <button class="btn--right" id="btn-plus">+</button>
+        </div>
+        <button class="btn--start" id="btn-start">start!</button>
+    </div>
+    <button id="btnRestart" onclick="location.reload();">
+        again!
+    </button>
+    <h1 class="bg-text" id="bg-text">Who<br>should?!</h1>
+    <div class="number-container" id="numbers"></div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
